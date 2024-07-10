@@ -1,0 +1,206 @@
+.footer {
+    background: #F6F6F6;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 92px;
+    padding-left: 92px;
+    // padding: 40px, 92px, 40px, 92px;
+
+    .sectionContainer {
+        gap: 2.5rem;
+        display: flex;
+    }
+
+    .gridOne {
+        // border: 2px solid black;
+        width: 378px;
+        height: 216px;
+        gap: 49px;
+        margin-right: 7rem;
+        // margin-top: 29px;
+        // padding-bottom: 1rem;
+
+        .icon {
+            font-size: 24px;
+            // border: 2px solid black;
+        }
+
+        .newT {
+            display: none;
+        }
+
+        .Ficon {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    .footerLinks {
+        line-height: 2;
+
+        span {
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    .smallLink {
+        display: none;
+    }
+
+    .copyRightDiv {
+        border: 2px solid black;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 92px;
+        padding-right: 92px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        width: 390px;
+        height: 425px;
+        padding-top: 19px;
+        // padding-left: 12px;
+        padding-bottom: 12px;
+        // padding-right: 6px;
+
+        .gridOne {
+            margin-left: -70px;
+        }
+
+        .fott {
+            width: 360px;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        .foot1 {
+            width: 360px;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        .socialIcon {
+            width: 342px;
+            align-items: center;
+            font-size: 12px;
+
+            .icon {
+                // font-size: 90px;
+                // border: 2px solid black;
+                width: 24px;
+                align-items: center;
+                margin-top: 5px;
+                margin-left: 10px;
+            }
+
+            .oldT {
+                display: none;
+            }
+
+            .newT {
+                display: flex;
+                margin-left: -9px;
+                font-weight: 500;
+            }
+
+            .Ficon {
+                font-size: 12px;
+                font-weight: 500;
+                margin-left: -2px;
+            }
+        }
+    }
+
+    .footerLinks {
+        display: none;
+    }
+
+    .smallLink {
+        display: block !important;
+        position: absolute;
+        margin-top: 250px;
+        margin-left: -70px;
+        width: 384px;
+        line-height: 2;
+        border: 1px 0px solid #A1A1A1;
+
+        .smallS {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            box-shadow: 0 -3px 1px -2px #A1A1A1;
+            padding-top: 8px;
+            padding-left: 19px;
+            padding-bottom: 8px;
+            padding-right: 19px;
+            margin-top: 4px;
+
+            span {
+                justify-content: space-between;
+                // border: 2px solid black;
+                width: 100%;
+            }
+
+            .ip-container {
+                border-radius: 8px;
+                background-color: #fff;
+                position: absolute;
+                padding: 10px;
+                text-align: center;
+                max-width: 170px;
+                width: 100%;
+                height: 120px;
+                margin-left: 7rem;
+                z-index: 999;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyRightDiv {
+        width: 390px;
+        // margin-top: 20px;
+        display: flex;
+        // position: absolute;
+
+        .footerp {
+            margin-top: 39px;
+            font-size: 10px;
+            font-weight: 300;
+        }
+
+        .pry {
+            width: 350px;
+            // border: 2px solid black;
+            margin-top: -80px;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 22px;
+        }
+    }
+}
