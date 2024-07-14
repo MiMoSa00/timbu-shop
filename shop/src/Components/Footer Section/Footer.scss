@@ -183,24 +183,29 @@
     }
 
     .copyRightDiv {
-        width: 390px;
+        // width: 390px;
         // margin-top: 20px;
-        display: flex;
+        display: none;
         // position: absolute;
 
-        .footerp {
-            margin-top: 39px;
-            font-size: 10px;
-            font-weight: 300;
+        .footerp{
+        //    border: 2px solid black;
+           bottom: -2rem;
+           margin-left: 2rem;
+           position: absolute;
+           margin: 0;
+           width: 100%;
         }
 
-        .pry {
-            width: 350px;
+        .pry{
             // border: 2px solid black;
-            margin-top: -80px;
-            font-size: 16px;
-            font-weight: 400;
-            margin-bottom: 22px;
+            height: 34px;
+            margin-left: 10px;
         }
+    }
+
+    .RightDiv{
+       display: block; 
+       width: 390px;
     }
 }

@@ -199,6 +199,19 @@ const Footer = () => {
       </div> 
    
    </div>
+
+    <div className="RightDiv flex" style={{display:"none"}} >
+      
+  
+    <div className="pries" >
+    <p>Privacy Policy</p> 
+    <p>Terms of Service</p> 
+      </div>
+      <div className="footzy">
+      <p>&copy;2024 TIMBU</p>
+        </div> 
+   
+   </div>
    </>
   )
 }

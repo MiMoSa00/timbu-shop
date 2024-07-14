@@ -1,0 +1,360 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+.diver{
+    background: #F5F5F5;
+    height: 1400px;
+}
+.checkoutSection {
+    margin-top: 40px;
+    padding-top: 45px;
+    margin-left: 202px;
+
+    
+}
+
+.axis{
+    display: flex;
+    justify-content: space-evenly;
+}
+.checkoutSection h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.top {
+    background-color: #FFFFFF;
+    width: 608px;
+    height: 160px;
+    padding-top: 2px;
+    padding-left: 24px;
+    padding-bottom: 2px;
+    padding-right: 24px;
+    margin-top: 12px;
+    gap: 40px;
+}
+
+.info{
+    margin-left: -15.5rem;
+    justify-content: start;
+    /* border: 2px solid black; */
+}
+.checkl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkl h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.checkl small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.checkl p {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+/* delivery */
+
+.delivery {
+    background-color: #FFFFFF;
+    width: 608px;
+    height: 470px;
+    padding-top: 2px;
+    padding-left: 24px;
+    padding-bottom: 2px;
+    padding-right: 24px;
+    margin-top: 2px;
+    gap: 40px;
+
+}
+
+.delivery h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form {
+    display: grid;
+    /* margin-top: 251px; */
+}
+
+.form label {
+    margin-top: 20px;
+}
+
+.form input {
+    height: 41px;
+    margin-top: 12px;
+}
+
+.method {
+    background-color: #FFFFFF;
+    width: 608px;
+    height: 200px;
+    padding-top: 2px;
+    padding-left: 24px;
+    padding-bottom: 2px;
+    padding-right: 24px;
+    margin-top: 2px;
+    gap: 40px;
+}
+
+.methodContain {
+    display: grid;
+ 
+}
+
+.first{
+    margin-bottom: 29px;
+
+}
+
+.checkicon{
+    margin-right: 20px;
+}
+input[type="new"] {
+    display: grid;
+    margin-left: 35px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+/* empty */
+.empty{
+    background-color: #FFFFFF;
+    width: 608px;
+    height: 200px;
+    padding-top: 2px;
+    padding-left: 24px;
+    padding-bottom: 2px;
+    padding-right: 24px;
+    margin-top: 2px;
+    gap: 40px; 
+}
+
+
+.checkFoot {
+    margin-top: 9rem;
+    /* width: 1440px; */
+    height: 51px;
+    /* margin-top: 39px; */
+    padding-top: 29px;
+    padding-left: 55px;
+    margin-left: -12.8rem;
+    border-top: 2px solid #D6D6D6;
+    background-color: #fff;
+    text-align: left;
+}
+
+/* payment */
+.paymentSection{
+    width: 392px;
+    height: 723px;
+    background-color: #fff;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit small{
+    margin-right: 20px;
+}
+.edit h2{
+    margin-left: 2rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.checkItem{
+    display: flex;
+    /* margin-top: 35px; */
+    margin-bottom: 49px;
+    border-bottom: 2px solid #D6D6D6;
+}
+
+.checkItem img{
+    width: 79px;
+    height: 115px;
+    margin-top: 32px;
+    margin-left: 22px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.checkers h6{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 33px ;
+}
+.checkers small{
+  margin-top: 9px;
+    font-size: 12px;
+    color: #666565;
+    font-weight: 400;
+}
+
+.checkers p{
+    margin: 0;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.checkers span{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.money{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.checkPay{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 1.5rem;
+    border-bottom: 2px solid #D6D6D6;
+}
+.checkTotal{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.paye{
+    background-color: #02071C;
+    color: #FFFFFF;
+    width: 334px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 29px;
+   margin-top: 22px;
+}
+.checkList{
+    display: none;
+}
+ 
+@media  screen and (max-width: 480px) {
+ 
+.diver{
+    width: 490px;
+    height: 1839px;
+}
+    .checkoutSection h1{
+        margin-left: -120px;
+    }
+
+    .paymentSection{
+        width: 402px;
+        height: 450px;
+        margin-left: -450px;
+    }
+
+.checkItem img{
+    margin-left: 1px;
+}
+    .checkItem h6{
+        font-size: 14px;
+        margin-left: -19px;
+
+    }
+   
+
+    .top{
+        display: block;
+        width: 370px;
+        margin-left: 14px;
+        
+        margin-top: 455px;
+       
+            }
+ 
+         .checkl{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+    
+
+         }
+        
+         .delivery{
+       width: 370px;
+       margin-left: 14px;
+       height: 470px;
+         }
+         .delivery input{
+            border: 1px solid black;
+         }
+
+         .empty{
+            display: none;
+         }
+         .method{
+            width: 376px;
+            height: 300px;
+            position: relative;
+            margin-top: 4px;
+            margin-left: 14px;
+         }
+
+         input[type="new"]{
+           display: none;
+         }
+         .checkList{
+            display: block;
+            margin-left: 27px;
+            color: #777777;
+            margin-top: 6px;
+         }
+
+         .pay{
+            display: block;
+            margin-top: 970px;
+            width: 420px;
+            height: 230px;
+            margin-left: -17px;
+            background-color: #fff;
+           
+            
+         }
+
+         .paye{
+            position: absolute;
+            margin-top: -57px;
+            margin-bottom: 50px;
+            width: 390px;
+            margin-left: 1px;
+            font-size: 20px;
+         }
+
+         .checkFoot{
+            margin-top: 300px;
+         }
+        
+}

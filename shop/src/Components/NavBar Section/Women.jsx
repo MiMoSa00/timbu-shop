@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Footer from '../Footer Section/Footer'
 import { Link } from 'react-router-dom'
 import './Nav.css'
 
 // Imported Icons
-import { BiSearchAlt } from 'react-icons/bi'
-import { FiUser } from 'react-icons/fi'
+// import { BiSearchAlt } from 'react-icons/bi'
+// import { FiUser } from 'react-icons/fi'
 import { RiShoppingBag3Line } from 'react-icons/ri'
 import { FiFilter } from 'react-icons/fi'
 // import { AiOutlineHeart } from 'react-icons/ai'
@@ -15,7 +15,7 @@ import { FiFilter } from 'react-icons/fi'
 
 
 // Imported Image
-import img from '../../assets/TIMBU.png'
+// import img from '../../assets/TIMBU.png'
 import img1 from '../../assets/newimg.png'
 // import img0 from '../../assets/general.png'
 import img2 from '../../assets/Group.png'
@@ -27,6 +27,7 @@ import img7 from '../../assets/female4.png'
 import img8 from '../../assets/female5.png'
 import img9 from '../../assets/female6.png'
 import img10 from '../../assets/female7.png'
+import TopBar from './TopBar'
 
 
 
@@ -35,64 +36,15 @@ import img10 from '../../assets/female7.png'
 const Women = () => {
 
 
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+  
     return (
-        <div className='topSection'>
-            <div className="headerSection flex">
-                <div className="title">
+        <div >
 
-                    <div className="imgCl">
-                        <div className="menu-icon" onClick={toggleMenu}>
-                            {isOpen ? '✖️' : '☰'}
-                        </div>
-                        {isOpen && (
-                            <nav className="nav-menu">
-                                <ul>
-                                    <li><a href="#home">Men</a></li>
-                                    <li><a href="#about">Women</a></li>
-
-                                </ul>
-                            </nav>
-                        )}
-
-                        <img src={img} />
-                    </div>
-
-                    <Link to="/men">
-                    <button style={{  color: '#8A8A8A', fontWeight: "600", fontSize: "19px", backgroundColor:"transparent", border:"none" }} className='gender'>Men</button>
-                    </Link>
-                 
-                    <Link to="/women">
+            <TopBar />
+            
+            <Link to="/women">
                     <button style={{ backgroundColor:"transparent", border:"none",fontWeight: "600", fontSize: "19px"  }} className='gender'>Women</button>
                     </Link>
-                </div>
-
-                <div className="iconic" style={{ display: "flex", gap: "29px" }}>
-                    <div className="searchBar flex" >
-                        <BiSearchAlt className="icone" style={{ marginLeft: "10px", fontSize: "20px" }} />
-                        <div className="mini" >
-
-                            <input type="text" placeholder='Search for items' />
-                        </div>
-
-
-                    </div>
-
-                    <div className="adminDiv flex">
-                        <FiUser className="icon" />
-                        <RiShoppingBag3Line className="icon" />
-
-                    </div>
-                </div>
-
-
-
-
-            </div>
 
             <div className="cardSection flex">
                 <div className="rightCard flex">
