@@ -498,7 +498,12 @@ margin-top: -9px;
 }
 
 @media screen and (max-width: 480px) {
+  body{
+    width: 100%;
+
+  }
   .topSection .imgCl {
+   
     gap: 16px;
     margin-left: -70px;
     align-items: center;
